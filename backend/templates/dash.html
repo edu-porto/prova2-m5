@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs🗄️</title>
+    <script src="https://unpkg.com/htmx.org@1.9.11"></script>
+</head>
+<header>
+    <h1>Prova prática Eduardo França Porto</h1>
+</header>
+
+<body>
+    <h4>Tela de dashboard que contem os logs das rotas </h4>
+    <ul class="guarda-log" hx-get="http://localhost:5000/all-logs" hx-trigger="every 5s">
+    </ul>
+
+
+</body>
+</html>
